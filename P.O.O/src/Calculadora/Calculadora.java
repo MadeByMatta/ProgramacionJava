@@ -20,12 +20,26 @@ public class Calculadora {
 			return precio;
 		}
 
+		public int getPrecioImp() {
+			return precioImp;
+		}
+
+		public void setPrecioImp(int precioImp) {
+			this.precioImp = precioImp;
+		}
+
+		public double getImpuesto() {
+			return impuesto;
+		}
+
+		public void setPrecio(int precio) {
+			this.precio = precio;
+		}
+
 		public int getPrecioIMP() {
 			return precioImp;
 		}
 
 	}
-
-
 
 }
