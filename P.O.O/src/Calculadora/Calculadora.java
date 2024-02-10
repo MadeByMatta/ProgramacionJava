@@ -42,4 +42,14 @@ public class Calculadora {
 
 	}
 
+	public String getPrecio1() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getPrecio() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

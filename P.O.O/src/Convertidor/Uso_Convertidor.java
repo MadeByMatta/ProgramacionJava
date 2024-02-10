@@ -13,6 +13,7 @@ public class Uso_Convertidor {
 			if (opcion.equalsIgnoreCase("Cálculo")) {
 				String tipo = JOptionPane.showInputDialog("¿Quieres convertir KILÓMETROS O MILLAS?: ");
 				String grados = JOptionPane.showInputDialog("KILÓMETROS: ");
+				String kilometros = null;
 				int kilometrosInt = Integer.parseInt(kilometros);
 
 				Convertidor conversor = new Convertidor(tipo, kilometrosInt);
