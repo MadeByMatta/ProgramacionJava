@@ -13,7 +13,7 @@ public class Vehiculo {
 		this.year = year;
 	}
 
-	// geter and setter para marca
+	// getter and setter para marca
 	public String dimeMarca() {
 		return this.marca;
 	}
